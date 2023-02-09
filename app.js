@@ -22,7 +22,7 @@ app.get('/location', (req, res) => {
 })
 //==2=======Grocery=========
 app.get('/grocery', (req, res) => {
-    fs.readFileSync('Grocery.js', 'utf-8', (err, result) => {
+    fs.readFileSync('grocery.js', 'utf-8', (err, result) => {
         res.send(result)
     })
 })
