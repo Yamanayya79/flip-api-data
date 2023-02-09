@@ -16,20 +16,20 @@ app.get('/', (req, res) => {
 
 // =1=======location========
 app.get('/location', (req, res) => {
-    fs.readFileSync('location.js', 'utf-8', (err, result) => {
+    fs.readFileSync('location.json', 'utf-8', (err, result) => {
         res.send(result)
     })
 })
 //==2=======Grocery=========
 app.get('/grocery', (req, res) => {
-    fs.readFileSync('grocery.js', 'utf-8', (err, result) => {
+    fs.readFileSync('grocery.json', 'utf-8', (err, result) => {
         res.send(result)
     })
 })
 //====3====Electronics product=========
 
 app.get('/Electronics', (req, res) => {
-    fs.readFileSync('Electronics.js', 'utf-8', (err, result) => {
+    fs.readFileSync('Electronics.json', 'utf-8', (err, result) => {
         res.send(result)
     })
 })
@@ -48,25 +48,25 @@ app.get('/EssentialsWinter', (req, res) => {
 })
 ////==6========weddinggifts=============
 app.get('/weddinggifts', (req, res) => {
-    fs.readFileSync('weddinggifts.js', 'utf-8', (err, result) => {
+    fs.readFileSync('weddinggifts.json', 'utf-8', (err, result) => {
         res.send(result)
     })
 })
 ////==7=======Sports==============
 app.get('/sports', (req, res) => {
-    fs.readFileSync('sports.js', 'utf-8', (err, result) => {
+    fs.readFileSync('sports.json', 'utf-8', (err, result) => {
         res.send(result)
     })
 })
 //==8======dress========
 app.get('/dress', (req, res) => {
-    fs.readFileSync('dress.js', 'utf-8', (err, result) => {
+    fs.readFileSync('dress.json', 'utf-8', (err, result) => {
         res.send(result)
     })
 })
 //===9=========kitchen============
 app.get('/kitchen', (req, res) => {
-    fs.readFileSync('kitchen.js', 'utf-8', (err, result) => {
+    fs.readFileSync('kitchen.json', 'utf-8', (err, result) => {
         res.send(result)
     })
 })
