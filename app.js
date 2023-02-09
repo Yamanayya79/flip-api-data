@@ -42,7 +42,7 @@ app.get('/Furniture', (req, res) => {
 
 //=5==Winter EssentialsWinter Essentials======
 app.get('/EssentialsWinter', (req, res) => {
-    fs.readFileSync('EssentialsWinter.js', 'utf-8', (err, result) => {
+    fs.readFileSync('EssentialsWinter.json', 'utf-8', (err, result) => {
         res.send(result)
     })
 })
